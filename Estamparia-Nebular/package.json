@@ -1,5 +1,15 @@
 {
+  "name": "estamparia-nebular",
+  "version": "1.0.0",
+  "description": "Projeto ",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Oliveira",
+  "license": "ISC"
 }

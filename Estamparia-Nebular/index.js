@@ -7,6 +7,12 @@ app.get('/Principal', (req, res) => {
     res.send('Loading...');
 })
 
+app.get('/Produtos', (req, res) => {
+    console.log('Projeto Estamparia');
+    res.send('Loading...');
+})
+
+
 app.listen(3000, () => {
     console.log('Projeto rodando em: http://localhost:3000')
 })
