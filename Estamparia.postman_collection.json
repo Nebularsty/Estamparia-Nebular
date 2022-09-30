@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "668cd949-46db-4063-b323-25cd4efce54b",
+		"name": "Estamparia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22602683"
+	},
+	"item": [
+		{
+			"name": "ListarClientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4800/listar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4800",
+					"path": [
+						"listar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4800/listarClientes/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4800",
+					"path": [
+						"listarClientes",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inserirCliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome_cliente\":\"RECEBAAA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4800/inserirClientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4800",
+					"path": [
+						"inserirClientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "alterarCliente",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"nome_cliente\":\"PEGADINHA\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4800/alterarClientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4800",
+					"path": [
+						"alterarClientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "excluirCliente",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4800/excluirClientes/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4800",
+					"path": [
+						"excluirClientes",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
