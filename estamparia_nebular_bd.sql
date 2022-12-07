@@ -27,6 +27,16 @@ INSERT INTO tbl_clientes
 VALUES
 ('Matheus Henrique', 'matheus@gmail.com', '1193453203');
 
+INSERT INTO tbl_clientes
+(nome_cliente, email_cliente, telefone_cliente)
+VALUES
+('Camila Gonçalvez', 'camila@gmail.com', '119203203');
+
+INSERT INTO tbl_clientes
+(nome_cliente, email_cliente, telefone_cliente)
+VALUES
+('Isabella Oliveira', 'isabela@gmail.com', '119203203');
+
 SELECT * FROM tbl_clientes;
 
 SELECT * FROM tbl_clientes WHERE id = 1;
