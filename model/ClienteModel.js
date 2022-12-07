@@ -15,9 +15,6 @@ const Cliente = connection.define(
     telefone_cliente: {
       type: sequelize.STRING(15),
     },
-    data_nascimento_cliente: {
-      type: sequelize.DATE(),
-    }
   }
 );
 
